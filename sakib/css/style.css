@@ -1,0 +1,285 @@
+	
+/*
+project name:psd to html.
+author:Nazmus sakib.
+email:Snazmus760@gmail.com.
+*/
+
+/*======================
+Basic css start
+===========================*/
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+ul{
+list-style-type:  none;
+}
+a{
+text-decoration: none;
+}
+.section-padding{
+padding:40px 0px;
+}
+/*======================
+Basic css end
+========================*/
+/*============================
+header start
+==============================*/
+.nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 16px;
+}
+.menu{
+font-size: 0px;
+}
+.section-container{
+padding:0px 45px;
+padding-bottom: 60px;
+}
+.social-icon{
+font-weight: bold;
+font-size: 20px;
+}
+.social-icon i{
+padding-right: 29px;
+color: black;
+}
+.heading-text{
+letter-spacing: 15px;
+}
+.heading-text h1{
+	font-family: josefinsans;
+	font-weight: bold;
+}
+
+
+
+
+.small-underline{
+height: 5px;
+width: 101px;
+background-color: gray;
+margin: 0 auto;
+margin-top: 20px;
+}
+/*===================
+header end
+======================*/
+
+
+/* ============================
+image with alert section start
+==============================*/
+.all-images{
+display: grid;
+grid-template-columns: auto auto auto;
+}
+.all-images img{
+width: 461px;
+height: 322px;
+}
+.single-image1{
+position: relative;
+}
+.alert-content1{
+position: absolute;
+left: 18%;
+top: 61%;
+text-align: center;
+transform: translate(-11%,-36%);
+}
+.single-image2{
+position: relative;
+}
+.alert-content2{
+position: absolute;
+left: 18%;
+top: 61%;
+text-align: center;
+transform: translate(-11%,-36%);
+}
+.single-image3{
+position: relative;
+}
+.alert-content3{
+position: absolute;
+left: 18%;
+top: 61%;
+text-align: center;
+transform: translate(-11%,-36%);
+}
+/* ============================
+image with alert section end
+===============================*/
+
+
+
+
+/*======================
+lifestyle start
+========================*/
+.lifestyle{
+	padding: 100px 0px;
+}
+.media{
+	margin-right: 10px;
+position: relative;
+padding-bottom: 100px;
+}
+.alert{
+position: absolute;
+left: 46%;
+top: -19%;
+}
+.media-body{
+margin-top: 128px;
+}
+span i{
+padding-right: 6px;
+}
+/*===========================
+lifestyles right side start
+============================*/
+.card{
+ 
+    position: relative;
+}
+.card .img{
+width: 100%;
+position: absolute;
+left: 65px;
+transform: translate(19px,-62%);
+}
+
+.social i{
+	  margin-right: 30px;
+    font-size: 19px;
+    color: black;
+}
+
+.card-heading h4{
+	font-family: 'Mrs Sheppards', cursive;
+    font-size: 35px;
+	}
+	.card-body p{
+		font-family: opensans;
+		font-style: italic;
+		font-size: 18px;
+		
+	}
+
+
+	.subscribe{
+	background-color: #b59f5b;
+	
+	}
+	.subscribe button{
+		color: #fff;
+	}
+.right-all-photos img{
+	  width: 113px;
+    height: 113px;
+}
+.media .image{
+    margin-bottom: -80px;
+    width: 100px;
+    height: 110px;
+    margin-right: 11px;
+}
+.search{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 305px;
+
+}
+
+.search a{
+	padding-top: 5px;   
+    background-color: #b59f5b;
+    width: 92px;
+   
+    text-align: center;
+    color: #fff;
+}
+.banner img{
+	 width: 314px;
+    height: 314px;
+}
+.social-site img{
+	    width: 337px;
+
+    height: 323px;
+}
+}
+/*=======================
+lifestyle end
+======================== */
+
+
+/*===================
+follow class start
+=====================*/
+.follow-class h2{
+font-family: opensans;
+}
+.follow-class span{
+font-family: 'Mrs Sheppards', cursive;
+font-size: 30px;
+}
+/*=================
+follow class end
+=====================*/
+
+
+/*=================
+gallery start 
+===================*/
+.all-photos img{
+	width:200px;
+	height: 200px;
+}
+
+
+
+
+/*=====================
+gallery end
+=====================*/
+
+
+
+/*================
+social icon start
+==================*/
+.icons{
+background-color: #f4f7f6;
+}
+.all-icons i{
+margin-right: 49px;
+font-size: 29px;
+color: black;
+}
+/*=================
+social icon end
+=====================*/
+
+
+/*==================
+footer start
+==================*/
+.footer-content {
+text-align: center;
+}
+.footer-content h3{
+font-family: 'Mrs Sheppards', cursive;
+}
+/* ================
+footer end
+=================

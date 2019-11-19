@@ -1,0 +1,20 @@
+@media only screen and (max-width: 600px) {
+ .nav{
+ 	flex-direction: column;
+  }
+  .heading-text h1{
+  	text-align: center;
+  	letter-spacing: 0px;
+  }
+  .small-underline{
+	height: 5px;
+    width: 101px;   
+    margin: 0 auto;
+    text-align: center;
+ 
+}
+.all-images{
+	grid-template-columns: auto;
+}
+
+}
